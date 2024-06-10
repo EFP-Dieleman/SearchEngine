@@ -112,7 +112,7 @@ CREATE TABLE `movie` (
   `id` int NOT NULL,
   `label` varchar(255) NOT NULL,
   `review` text NOT NULL,
-  `realeased` int NOT NULL COMMENT 'year of release'
+  `released` int NOT NULL COMMENT 'year of release'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
